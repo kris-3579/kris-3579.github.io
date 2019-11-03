@@ -1,0 +1,372 @@
+
+.container{
+    padding-top: 0.5in;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.head-text{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    margin-left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
+    text-shadow: 2px 2px #000000;
+
+  }
+  padding-top: 0.25in;
+  position: relative;
+  text-align: center;
+}
+
+.albums{
+  display:none;
+
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.inline-pic{
+  position: absolute;
+  margin-left: 15%;
+  margin-right: 70%;
+  text-align: left;
+  bottom: 18vw;
+}
+
+.inline-pic1{
+  position: absolute;
+  margin-left: 20%;
+  margin-right: 70%;
+  text-align: left;
+  bottom: 18vw;
+}
+.text {
+  margin-left: 15%;
+  color: #f2f2f2;
+  font-size: 2vw;
+  font-weight: bold;
+  position: absolute;
+  bottom: 14vw;
+  width: 100%;
+  text-shadow: 1.5px 1.5px #000000;
+  text-align: left;
+}
+
+.subtext {
+  margin-left: 20%;
+  color: #f2f2f2;
+  font-size: 1.5vw;
+  font-weight: bold;
+  position: absolute;
+  bottom: 12vw;
+  width: 100%;
+  text-shadow: 1.5px 1.5px #000000;
+  text-align: left;
+}
+
+.text1 {
+  margin-left: 15%;
+  color: #f2f2f2;
+  font-size: 2vw;
+  font-weight: bold;
+  position: absolute;
+  bottom: 14vw;
+  width: 100%;
+  text-shadow: 2px 2px #000000;
+  text-align: left;
+}
+
+.subtext1 {
+  margin-left: 15%;
+  color: #f2f2f2;
+  font-size: 1.5vw;
+  font-weight: bold;
+  position: absolute;
+  bottom:  12vw;
+  width: 100%;
+  text-shadow: 2px 2px #000000;
+  text-align: left;
+}
+.dot{
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  cursor: pointer;
+  margin: 0 2px;
+
+}
+.active {
+  background-color: #717171;
+}
+
+.container5{
+  padding-top: 0.25in;
+  position: relative;
+  text-align: center;
+}
+
+.movies{
+  display: none;
+}
+
+.dot2{
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active3 {
+  background-color: #717171;
+}
+
+.container3{
+  padding-top: 3in;
+  position: relative;
+  text-align: center;
+  color: white;
+  background-size: auto auto;
+
+}
+.games-ai{
+  margin-left: 20%;
+  position: absolute;
+  bottom: 85vw;
+  font-size: 2vw;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: 2px 2px #000000;
+}
+
+#games{
+  /*
+  position: absolute;
+  text-align: center;
+  height: auto;
+  bottom: 70vw;
+  font-size: 2vw;
+  */
+  
+}
+  a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  } 
+
+.hacking{
+  margin-left: 65%;
+  font-size: 2vw;
+  bottom: 85vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: 2px 2px #000000;
+}
+
+#hacking{
+  
+  position: absolute;
+  left: 20%;
+  width: 60%;
+  bottom: 70vw;
+  font-size: 2vw;
+  background-color: darkgreen;
+}
+
+
+.container4{
+  padding-top: 0.25in;
+  position: relative;
+  text-align: center;
+}
+.books{
+  display: none;
+}
+
+.dot1{
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+
+}
+.active2 {
+  background-color: #717171;
+}
+
+.inline-pic2{
+  position: absolute;
+  margin-left: 20%;
+  margin-right: 70%;
+  text-align: left;
+  bottom: 23vw;
+}
+
+.captions{
+  margin-left: 35%;
+  position: absolute;
+  bottom: 17vw;
+  color: white;
+  width: 27vw;
+  font-size: 1.5vw;
+  font-size: bold;
+  text-shadow: 1.5px 1.5px black; 
+}
+
+body{
+    background-color: lightcyan;
+}
+.spotify{
+  margin-left: 65%;
+  bottom: 14vw;
+  position: absolute;
+}
+
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.cap-pic{
+  box-shadow: 5px 5px 5px darkslategrey; 
+  margin-left: 35%; 
+  position: absolute;
+  bottom: 16vw;
+}
+.fav-quote{
+  margin-left: 15%;
+  margin-right: 15%;
+  position: absolute;
+  font-size: bold;
+  font-size: 1.8vw;
+  color: white;
+  text-shadow: 2px 2px black; 
+
+}
+.movie-cap{
+  margin-left: 35%;
+  position: absolute;
+  bottom: 25vw;
+  color: white;
+  width: 27vw;
+  font-size: 1.5vw;
+  font-size: bold;
+  text-shadow: 1.5px 1.5px black; 
+}
+.youtube{
+  margin-left: 65%;
+  bottom: 18vw;
+  position: absolute;
+}
+.book-cap{
+  margin-left: 35%;
+  position: absolute;
+  color: white;
+  width: 40vw;
+  font-size: 1.5vw;
+  font-size: bold;
+  text-shadow: 1.5px 1.5px black; 
+
+}
+
+.code-videos{
+  margin-left: 35%;
+  position: absolute;
+  bottom: 65vw;
+ 
+}
+
+.code-videos1{
+  margin-left: 35%;
+  position: absolute;
+  bottom: 45vw;
+}
+
+.code-videos2{
+  margin-left: 35%;
+  position: absolute;
+  bottom: 25vw;
+}
+
+.code-videos3{
+  margin-left: 35%;
+  position: absolute;
+  bottom: 5vw;
+}
+
+.box-titles{
+  padding-top: 2in;
+  text-align: center;
+  font-size: 5vw;
+  font-size: bold;
+  color: lightblue;
+  text-shadow: 2px 2px black; 
+  
+}
